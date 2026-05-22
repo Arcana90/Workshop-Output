@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.attendancetracker.controller.LoginController">
+    <children>
+        <Label layoutX="140.0" layoutY="44.0" text="Admin Login">
+            <font><Font name="System Bold" size="18.0" /></font>
+        </Label>
+        <TextField fx:id="usernameField" layoutX="100.0" layoutY="106.0" prefHeight="26.0" prefWidth="200.0" promptText="Username" />
+        <PasswordField fx:id="passwordField" layoutX="100.0" layoutY="150.0" prefHeight="26.0" prefWidth="200.0" promptText="Password" />
+        <Button layoutX="100.0" layoutY="204.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="26.0" prefWidth="200.0" text="Login" />
+        <Label fx:id="errorLabel" alignment="CENTER" layoutX="47.0" layoutY="247.0" prefHeight="17.0" prefWidth="307.0" textFill="RED" />
+    </children>
+</AnchorPane>
