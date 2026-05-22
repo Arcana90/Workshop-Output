@@ -1,10 +1,7 @@
 package com.example.attendancetracker.controller;
 
-// Delete the old broken com.attendance imports and paste these:
 import com.example.attendancetracker.model.Attendance;
 import com.example.attendancetracker.repository.AttendanceRepository;
-
-// Keep your other imports underneath:
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
