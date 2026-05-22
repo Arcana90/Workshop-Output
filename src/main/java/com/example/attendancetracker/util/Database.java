@@ -5,10 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Database {
-    // Applied your new northeast region pooler host and configuration parameters
     private static final String URL = "jdbc:postgresql://aws-1-ap-northeast-1.pooler.supabase.com:5432/postgres";
-    private static final String USER = "postgres.yvyakpttifhjxjvuqdek"; // Your complete project-scoped pooler user
-    private static final String PASSWORD = "sEgBESuAH5LH98X2"; // Replace with your current database password if you changed it
+    private static final String USER = "postgres.yvyakpttifhjxjvuqdek";
+    private static final String PASSWORD = "sEgBESuAH5LH98X2"; 
 
     public static Connection getConnection() throws SQLException {
         try {
